@@ -1,0 +1,98 @@
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(123, 123, 123, .25);
+}
+
+#l-records-table .btn-sm {
+    margin: 1px;
+}
+
+.btn-primary {
+    background-color: var(--primary2);
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: var(--primary);
+}
+.btn-primary:disabled {
+    background-color: var(--primary2);
+}
+.btn-primary.active, .btn-primary:active, .btn-primary:focus {
+    background-color: var(--primary);
+    border: none;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary2);
+    border: 1px solid var(--primary2);
+    color: #fff;
+}
+
+.btn-outline-primary:disabled {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border: 1px solid var(--bs-border-color);
+    color: var(--text);
+}
+.btn-secondary:hover {
+    background-color: var(--bgb);
+    color: initial;
+    border-color: var(--bs-border-color);
+}
+.btn-secondary:disabled {
+    background-color: var(--secondary);
+}
+.btn-secondary.active {
+    background-color: var(--bgb);
+    color: initial;
+}
+
+.card .card-body .card-title {
+    color: var(--primary2);
+}
+.card .card-body .card-text {
+    font-weight: 500;
+    color: var(--text);
+}
+
+input:disabled, textarea:disabled {
+    color: var(--text) !important;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--primary2);
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--primary2);
+    border-color: var(--primary2);
+}
+
+input[type="checkbox"]:disabled:checked {
+    background-color: var(--primary2) !important;
+    border-color: var(--primary2) !important;
+}
+
+select {
+    padding: 4px;
+}
+select:disabled {
+    color: var(--text);
+}
+
+.input-group .btn {
+    z-index: 0;
+}
+
