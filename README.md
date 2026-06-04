@@ -68,4 +68,4 @@ The database (`amirrpcb_ckey2507`) consists of three primary tables:
 
 Default Superadmin credentials:
 - Username: `sauser0152`
-- Password: *(Set dynamically via registration/database seed)*
+- Password: `sauser12`
